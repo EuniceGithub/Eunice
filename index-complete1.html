@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端招新答题卷</title>
+    <style>
+        .q4-header,
+        .q4-footer {
+            box-sizing: border-box;
+            padding: 15px;
+            border: 5px solid pink;
+            text-align: center;
+        }
+
+        #q4-body {            
+            width: 380px;
+            height:440px;
+            border:1px;
+            margin:20px auto;
+            overflow: hidden;
+            clear: both;
+        }
+
+        .left,
+        .right {
+            margin: 20px 0;
+            box-sizing: border-box;
+            width: 180px;
+            height: 400px;
+            padding:20px;
+            border: 5px solid lightblue;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div>
+        <div class="outter">
+            <div class="q4-header">这里是头部</div>
+              <div  id="q4-body">
+                <div class="left" style="float: left;">经常遇到的布局</div>
+                <div class="right" style="float: right;" >右边部分</div>
+              </div>
+            <div class="q4-footer">这里是尾部</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
