@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TASK2</title>
+	<style>
+	.signature{
+		height: 125px;
+		width: 200px;
+	}
+    </style>
+</head>
+<body>
+	<form>
+		<table>
+			<tbody>
+				<tr>
+					<td>头像&nbsp;&nbsp;</td>
+					<td>
+						<input type="file">
+					</td>
+				</tr>
+				<tr>
+					<td>昵称&nbsp;&nbsp;</td>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>学历&nbsp;&nbsp;</td>
+					<td>
+						<select>
+							<option>大专</option>
+							<option>本科</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>性别&nbsp;&nbsp;</td>
+					<td>
+						 男<input type="radio" name="sex" value="male" checked>
+                         女<input type="radio" name="sex" value="female"> 
+					</td>
+				</tr>
+				<tr>
+					<td>爱好&nbsp;&nbsp;</td>
+					<td>
+						电影<input type="checkbox" value="film" name="hobby" checked> 
+                        摄影<input type="checkbox" value="photograph"  name="hobby">
+                        音乐<input type="checkbox" value="music" name="hobby"> 
+                        阅读<input type="checkbox" value="read"  name="hobby" checked>
+					</td>
+				</tr>
+                <tr>
+                	<td>签名</td>
+                	<td>
+                		<input type="text" class="signature"><br /><br />
+                		<input type="submit" value="保存">
+                	</td>
+                </tr> 
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
