@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TASK6-1</title>
+	<style type="text/css">
+	 #outter{
+	 	display: flex;
+	 	overflow: hidden;
+	 	width:100%;
+	 }
+     .center{
+     	display: flex;
+     	position: center;
+     	background: yellow;
+        height: 200px;
+        width: 1000px;   
+     }
+     .left{
+     	display: flex;
+     	flex-grow: 1;
+     	background: red;
+     }
+     .right{
+     	display: flex;
+     	flex-grow: 1;
+       	background: blue;
+     }
+    </style>
+</head>
+<body>
+   <div id="outter">
+	  <div class="left"></div>
+	  <div class="center"></div>
+	  <div class="right"></div>
+   </div>
+</body>
+</html>
