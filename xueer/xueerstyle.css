@@ -1,0 +1,394 @@
+#bodybg{
+		background: #F5F5F5;
+	}
+
+
+    /*头部*/
+    #headblock{
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 80px;
+    	background: #FFFFFF; 
+    }
+    .logo{
+    	position: absolute;
+    	top: 5px;
+    	left: 230px;
+    }
+    .tagout{
+        position: absolute;
+        left: 380px;
+        top: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-size: 20px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #666666;
+    }
+        .tag{
+            padding-top: 20px;
+            margin: 0 35px;
+            border-top: 5px solid #FFFFFF;
+        }
+        .tag:hover{
+           padding-top: 20px;
+           margin: 0 35px;
+           border-top: 5px solid #FF3300;
+    }
+    .search{
+        position: absolute;
+        left: 720px;
+        width: 23%;            
+        margin: 5px auto;
+        display: flex;
+        }
+        .search input{
+            float: left;
+            flex: 4;
+            height: 35px;
+            border: 2px solid #FF3333;
+            box-sizing: border-box;
+        }
+        .search button{
+            float: right;
+            flex: 1;
+            height: 35px;
+            background-color: #FF3333;
+            border-style: none;
+        }
+        .searchpicture{
+            width: 70%;
+        }
+    .loading{
+        position: absolute;
+        left: 380px;
+        top: -15px;
+        width: 200px;
+        display: flex;
+        }
+        .loading img{
+            width: 30%;
+        }
+        .loading button{
+            margin: 10px 15px;
+            width: 40%;
+            text-align: center;
+            font-size: 15px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: #FFFFFF;
+            background: #00CC99;
+        }
+
+    /*第一板块*/
+    #center{
+    	background: #FFFFFF;
+    	margin: 80px auto;
+    	width: 70%;
+    	height: 820px;
+    }
+    .classlist{
+    	position: relative;
+        top: 0;
+        left: 0;
+    	display: flex;
+    	flex-direction: row;
+    	width: 100%;
+    	height: 250px;
+    }
+    .list{
+       position: relative;
+       top: 0;
+       left: 60px;
+       height: 200px;
+       border-right: 1px solid #CCCCCC;
+       width: 22%;
+    }
+    .listright{
+       position: relative;
+       top: 0;
+       left: 60px;
+       height: 200px;
+       width: 22%;
+    }
+    .word:hover,
+    .word:hover .wordbottom{
+       color: #FF3300;
+    }
+    .allword{
+        font-family: Microsoft YaHei;
+    }
+    .wordbottom{
+        font-size: 14px;
+        color: #666666;
+    }
+    .centerpicture{
+    	width: 100%;
+    }
+    .beforelist{
+        width: 100%
+    }
+    .plus{
+        position: absolute;
+        top:205px;
+        left: 50px;
+        display: row;
+        border-color: 1px solid black;
+    }
+    .pluspicture{
+        padding: 0 85px; 
+    }
+
+
+    /*最热课程动态*/
+    #heat{
+    	background: #FFFFFF;
+    	margin: -65px auto;
+    	width: 70%;
+    	height: 375px;
+    }
+    .title1{
+        position: relative;
+        top:30px;
+        left: 44%;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        font-size: 20px;
+        color: #666666;
+    }
+    .title2{
+        position: relative;
+        left: 38%;
+        top:30px;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        font-size: 14px;
+        color: #00CC99;
+    }
+    .heatin1{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 50px;
+        left: 15%;
+        width: 70%;
+        height: 110px;
+    }
+    .heatin2{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 48px;
+        left: 15%;
+        width: 70%;
+        height: 110px;
+    }
+    .heatclass{
+        width: 20%;
+        border: 2px solid #00CC99;
+    }
+    .heatclass:hover{
+        background: #00CC99;
+        color: #000000;
+        width: 20%;
+        border: 2px solid #00CC99;
+    }
+    .heatclass2{
+        color: #666666;
+        position: relative;
+        top: 20px;
+        font-family: Microsoft YaHei;
+        text-align: center;
+    }
+    .heatclass:hover .heatclass2{
+        color: #FFFFFF;
+        position: relative;
+        top: 20px;
+        font-family: Microsoft YaHei;
+        text-align: center;
+    }
+    .number{
+        color: #FF3300;
+        font-size: 50px;
+        font-family: Microsoft YaHei;
+        font-weight:300;
+        text-align: center;
+        line-height: 100px;
+        width: 20%;
+    }
+    .number span{
+        border-bottom: 3px solid #FF3300;
+    }
+
+
+
+    /*猜你喜欢课程*/
+    #like{
+    	background: #FFFFFF;
+    	margin: 80px auto;
+    	width: 70%;
+    	height: 400px;
+    }
+    .likein{
+        position: relative;
+        top: 100px;
+        display: flex;
+        flex-direction: row;
+        font-family:Microsoft YaHei;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 100px; 
+        width: 100%;
+        height: 125px;
+    }
+    .likeclass1{
+        z-index: 1;
+        font-size: 20px;
+        position: absolute;
+        left: 9%;
+        margin-left: 15px;
+        width: 200px;
+        height: 100%;
+        background: #FF6666;
+    }
+    .likeclass2{
+        z-index: 1;
+        font-size: 20px;
+        position: absolute;
+        left: 29%;
+        margin-left: 15px;
+        width: 200px;
+        height: 100%;
+        background: #FF6666;
+    }
+    .likeclass3{
+        z-index: 1;
+        font-size: 20px;
+        position: absolute;
+        left: 49%;
+        margin-left: 15px;
+        width: 200px;
+        height: 100%;
+        background: #FF6666;
+    }
+    .likeclass4{
+        z-index: 1;
+        font-size: 20px;
+        position: absolute;
+        left: 69%;
+        margin-left: 15px;
+        width: 200px;
+        height: 100%;
+        background: #FF6666;
+    }
+    .likeclass1:hover{
+        z-index: 1;
+        font-size: 20px;
+        position: relative;
+        left: 9%;
+        width: 200px;
+        background: #FF3333;
+    }
+    .likeclass2:hover{
+        z-index: 1;
+        font-size: 20px;
+        position: relative;
+        left: 29%;
+        width: 200px;
+        background: #FF3333;
+    }
+    .likeclass3:hover{
+        z-index: 1;
+        font-size: 20px;
+        position: relative;
+        left: 49%;
+        width: 200px;
+        background: #FF3333;
+    }
+    .likeclass4:hover{
+        z-index: 1;
+        font-size: 20px;
+        position: relative;
+        left: 69%;
+        width: 200px;
+        background: #FF3333;
+    }
+    .likeclassunder{
+        position: absolute;
+        top: 20px;
+        left: 80px;
+        font-size: 15px;
+    }
+    .pinkrabbitsin1,
+    .pinkrabbitsin2,
+    .pinkrabbitsin3,
+    .pinkrabbitsin4{
+        display: none;
+    }
+    .likeclass1:hover+.pinkrabbitsin1{
+        position: absolute;
+        left: 15%;
+        top:-56px;
+        width: 0; 
+        display: block;
+    }
+    .likeclass2:hover+.pinkrabbitsin2{
+        position: absolute;
+        left: 35%;
+        top:-56px;
+        width: 0; 
+        display: block;
+    }
+    .likeclass3:hover+.pinkrabbitsin3{
+        position: absolute;
+        left: 55%;
+        top:-56px;
+        width: 0; 
+        display: block;
+    }
+    .likeclass4:hover+.pinkrabbitsin4{
+        position: absolute;
+        left: 75%;
+        top:-56px;
+        width: 0; 
+        display: block;
+    }
+
+    /*尾部*/
+    #end{
+    	position: absolute;
+    	bottom: -1150px;
+    	left: 0;
+    	width: 100%;
+    	height: 110px;
+    	background: #333333; 
+    }
+    .grayrabbits{
+        position: absolute;
+    	top: 0;
+    	left: 48%;
+    }
+    .endwords{
+    	border-top: 2px solid #CCCCCC;
+    	color: #CCCCCC;
+    	font-family: Microsoft YaHei;
+    	padding-top: 5px;
+    	padding-right: -10px;
+    	padding-left: -10px;
+    	position: absolute;
+    	top: 55px;
+    	left: 620px;
+    }
+    .pinkline{
+    	border: 1px solid #FF3366;
+    	background: #FF3366;
+    	height: 10px;
+    	width: 0;
+    	position: absolute;
+    	top: 66px;
+    	left: 50%;
+    }
