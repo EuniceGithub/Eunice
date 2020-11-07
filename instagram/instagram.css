@@ -1,0 +1,263 @@
+    #bodybg{
+		background: #F5F5F5;
+	}
+	#headblock{
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 55px;
+    	border: 1px solid lightgray;
+    	background: #FFFFFF; 
+    }
+    .headblockin{
+    	margin: auto;
+		width:70%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items:center;
+		justify-content: space-between;
+    }
+    .instagram{
+    	height: 55px;
+    }
+    .searchin{
+    	width: 150px;
+    	color: gray;
+    	text-align: center;
+    }
+    .home{
+    	height: 30px;
+    	margin-right: 20px;
+    }
+    .headimg{
+    	border-radius: 100%;
+    	overflow:hidden;
+    	height: 30px;
+    	width:30px;
+    }
+    .head{
+    	height: 30px;
+    }
+    #center{
+    	position: absolute;
+    	top: 100px;
+    	left: 15%;
+    	width: 70%;
+    	height: 1100px;
+    	display: flex;
+    	flex-direction: row;
+    }
+    .left{
+    	width: 65%;
+		display: flex;
+    	flex-direction: column;
+    }
+    .line{
+    	margin-bottom: 30px;
+    	height: 100px;
+		border: 1px solid lightgray;
+		background: #FFFFFF; 
+    }
+    .main{
+    	display:flex;
+    	flex-direction: column;
+    	height: 950px;
+    	border: 1px solid lightgray;
+    	background: #FFFFFF; 
+    }
+    .mainhead{
+    	display:flex;
+    	flex-direction: row;
+    	height: 80px;
+    	align-items:center;
+    	justify-content: space-between;
+    }
+    .mainheadleft{
+    	width: 150px;
+    	height: 80px;
+    	display: flex;
+    	flex-direction: row;
+    	align-items:center;
+    }
+    .gmmtv{
+    	border: 1px solid lightgray;
+    	margin:5px 10px;
+    	overflow:hidden;
+    	border-radius: 100%;
+    	width: 50px;
+        height: 50px;
+    }
+    .gmmtvpic{
+    	height: 50px;
+    }
+    .mainheadleft2{
+    	border-bottom: 1px solid lightgray;
+    	display: flex;
+    	flex-direction: row;
+    	align-items:center;
+    }
+    .gmmtv2{
+    	border: 1px solid lightgray;
+    	margin:5px 10px;
+    	overflow:hidden;
+    	border-radius: 100%;
+    	width: 50px;
+        height: 50px;
+    }
+    .gmmtvpic2{
+    	height: 50px;
+    }
+    .gmmtv2center{
+    	padding: 10px 10px 10px 30px;
+    	border-bottom: 1px solid lightgray;
+    	display: flex;
+    	flex-direction: row;
+    	align-items:center;
+    	justify-content: space-around;
+    }
+    .gmmtv2centerimg{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: left;
+    }
+    .gmmtv2imgin{
+		width: 149px;
+    }
+    .button{
+    	width: 200px;
+    }
+    .hid{
+    	display:none;
+    }
+	.gmmtvtext:hover+.hid{
+    	display:flex;
+    	flex-direction: column;
+    	background: #FFFFFF;
+    	border: 1px solid lightgray;
+    	position:absolute;
+    	left: 6%;
+    	top: 190px; 
+    	width: 42%;
+    	height: 365px;
+
+    }
+    .maincenter{
+    	width: 100%;
+    }
+	.bottomimg{
+		height: 30px;
+		display: flex;
+		align-items:center;
+		justify-content: space-between;
+	}
+	.bofang{
+		padding: 5px;
+	}
+	.pinglun{
+		border-top: 1px solid lightgray;
+		padding: 30px;
+		display: flex;
+		align-items:center;
+		justify-content: space-between;
+	}
+	.pinglunin{
+		border: none;
+	}
+	.right{
+		position: fixed;
+		right: 13%;
+    	width: 25%;
+		display: flex;
+    	flex-direction: column;
+    	
+    }
+    .head1img{
+    	border: 1px solid lightgray;
+    	margin-top: -5px;
+    	overflow:hidden;
+    	border-radius: 100%;
+    	width: 60px;
+        height: 60px;
+    }
+    .head1imgin{
+    	width: 60px;
+    }
+    .head1{
+    	flex-direction: row;
+    	display: flex;
+    	align-items:center;
+    	justify-content: space-between;
+    }
+    .head1in{
+    	margin-left: 20px;
+		padding: 5px;
+    	flex-direction: row;
+    	display: flex;
+        align-items:center;
+    	width: 200px;
+        height: 60px;
+    }
+    .line{
+    	overflow-x:auto;
+    	overflow-y: hidden;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-between;
+    }
+    .head2{
+    	height: 80px;
+    	width: 80px;
+		padding: 10px;
+    }
+    .head2img{
+    	border: 1px solid lightgray;
+    	overflow:hidden;
+    	border-radius: 100%;
+    	width: 60px;
+        height: 60px;
+    }
+    .head2imgin{
+    	width: 60px;
+    }
+    .head3{
+    	flex-direction: row;
+    	display: flex;
+    	align-items:center;
+    	justify-content: space-between;
+    }
+    .head3in{
+    	margin-left: 20px;
+		padding: 5px;
+    	flex-direction: row;
+    	display: flex;
+    	width: 200px;
+        height: 40px;
+    }
+    .check{
+    	margin-right: 20px;
+		padding: 5px;
+		height: 40px;
+    }
+    .follow{
+    	color: dodgerblue;
+    	font-weight: 800;
+    	margin-right: 20px;
+		padding: 5px;
+    }
+    .head3img{
+    	border: 1px solid lightgray;
+        overflow: hidden;
+    	border-radius: 100%;
+    	width: 40px;
+        height: 40px;
+    }
+    .head3imgin{
+    	margin-bottom: 10px;
+    	width: 40px;
+    }
+    .head3text{
+    	margin-left: 15px;
+    	margin-bottom:15px;
+    }
